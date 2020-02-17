@@ -8,10 +8,7 @@ $i			= $_GET["Start"];
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sem título</title>
-<link rel="stylesheet" type="text/css" href="css/blast.css"/>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">	
+<title>Documento sem título</title>	
 </head>
 
 <body>
@@ -42,7 +39,7 @@ $i			= $_GET["Start"];
 <option value="nt">nt</option>
 </select>
 <small style="vertical-align: middle">&nbsp;&nbsp;Database update in:&nbsp;</small><br>
-<small style="vertical-align: middle">01/22/2020</small>	
+<small style="vertical-align: middle"></small>	
 </div>
 <div class="input-group mb-3">
 <div class="input-group-prepend">
