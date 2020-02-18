@@ -1,8 +1,14 @@
 <?php
+$action 	= $_GET["action"];
 $id 		= $_GET["id"];
 $tCount		= $_GET["Start"];
 $tCountM 	= $_GET["Qtde_Seq"];
 $i			= $_GET["Start"];
+
+if($action == "Update"){
+	$update = "./script/update.sh";
+	exec($cmd);
+}
 ?>
 <!doctype html>
 <html>
@@ -38,8 +44,8 @@ $i			= $_GET["Start"];
 <option value="nr">nr</option>
 <option value="nt">nt</option>
 </select>
-<small style="vertical-align: middle">&nbsp;&nbsp;Database update in:&nbsp;</small><br>
-<small style="vertical-align: middle"></small>	
+<small style="vertical-align: middle">&nbsp;&nbsp;Database update&nbsp;</small><br>
+<small style="vertical-align: middle"><input type="button" href="index.php?p=BLAST-Options&id=<?php echo($id);?>&Start=<?php echo ($tCount);?>&Qtde_Seq=<?php echo ($tCountM);?>&action=Update"/></small>	
 </div>
 <div class="input-group mb-3">
 <div class="input-group-prepend">
