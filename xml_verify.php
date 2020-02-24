@@ -1,6 +1,6 @@
 <?php
 set_time_limit(240000);
-include('conection.php');
+include('connection.php');
 $Id_Project 	= $_GET["id"];
 $Start			= $_GET["Start"];
 $Total_Seq  	= $_GET["Qtde_Seq"];

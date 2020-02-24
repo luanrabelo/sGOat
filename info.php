@@ -1,6 +1,6 @@
 <?php
 $LimitSpecies = 15;
-include('conection.php');
+include('connection.php');
 $Id_Project 	= $_GET["id"];
 
 //Chart

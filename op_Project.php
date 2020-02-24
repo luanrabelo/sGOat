@@ -1,6 +1,6 @@
 <?php
 //Incluí o arquivo de conexão;
-include('conection.php');
+include('connection.php');
 
 //Pega a ação da página;
 $action 	= $_GET["action"];

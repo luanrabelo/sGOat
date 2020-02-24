@@ -1,5 +1,5 @@
 <?php 
-include("conection.php");
+include("connection.php");
 $Soft_Name		= "sGOat Software Gene Ontology Annotation Transcriptome";
 $Soft_Url		= "";
 $Soft_Descr		= "";

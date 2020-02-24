@@ -1,5 +1,5 @@
 <?php
-include('conection.php');
+include('connection.php');
 $action = $_GET["action"];
 if ($action == "update"){
 $id = $_GET["id"];

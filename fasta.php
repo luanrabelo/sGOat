@@ -1,5 +1,5 @@
 <?php
-include('conection.php');
+include('connection.php');
 $Id_Project 	= $_GET["id"];
 $Program		= $_GET["Program"];
 $db 			= $_GET["DataBase"];

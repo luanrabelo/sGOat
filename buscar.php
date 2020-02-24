@@ -1,5 +1,5 @@
 <?php
-include("conection.php");
+include("connection.php");
 $Gene 	= $_POST["txtGene"];
 $Term 	= $_POST["inputTerm"];
 $idGene = $_GET["id"];

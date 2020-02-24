@@ -9,7 +9,7 @@ function xmlEscape($string) {
 	return str_replace(array('&', '<', '>', '\'', '"'), array('&amp;', '&lt;', '&gt;', '&apos;', '&quot;'), $string);
 }
 
-include('conection.php');
+include('connection.php');
 
 $Id_Project     = $_GET["id"];
 $Start			= $_GET["Start"];

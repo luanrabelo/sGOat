@@ -1,7 +1,7 @@
 <?php
 $id = $_GET["id"];
 $action = $_GET["action"];
-include('conection.php');
+include('connection.php');
 ini_set('memory_limit', '1024M');
 ini_set('upload_max_filesize', '500M');
 ini_set('post_max_size', '500M');

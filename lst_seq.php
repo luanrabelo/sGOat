@@ -1,5 +1,5 @@
 <?php
-include('conection.php');
+include('connection.php');
 $idProject   = $_GET["idProject"];
 $ProjectName = $_GET["ProjectName"];
 

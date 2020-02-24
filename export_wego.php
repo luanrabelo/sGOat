@@ -3,7 +3,7 @@ ini_set('memory_limit','10240M');
 ini_set('post_max_size', '10240M');
 ini_set('upload_max_filesize', '10240M');
 
-include('conection.php');
+include('connection.php');
 $Action     = $_GET["action"];
 $Gene 	= $_GET["txtGene"];
 $idGene = $_GET["id"];
