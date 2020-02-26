@@ -88,9 +88,8 @@ $uploaddir = '/var/www/html/sGOat/uploads';
 $uploadfile = $uploaddir . $_FILES['FastaFile']['name'];
 $upfile    = $uploaddir.basename($_FILES['FastaFile']['name']);
 	
-if (move_uploaded_file($_FILES['FastaFile']['tmp_name'], $uploaddir)) {
-$file = $upfile;
-//$file = "/home/luan/Downloads/MUSCULO_18_CAMARAO_S14_L005gc1_MicroFile.fasta";	
+if (move_uploaded_file($_FILES['FastaFile']['tmp_name'], $uploadfile)) {
+$file = $upfile;	
 $content = read_fas_file($file);
 $fasta = fas_check($content);
 $seq = xmlEscape(fas_get($fasta));
