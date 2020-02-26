@@ -42,7 +42,6 @@ setTimeout(function() {
 $input = "$dir"."/fasta/"."$Start".".fasta";
 
 $cmd = "./apps/ncbi/".$Program." -db db/".$db."/".$db. " -query ".$input." -outfmt " . "14" . " -out " . $dir."/xml/".$Start.".xml" . " -num_threads ". $cpu ." -max_target_seqs ".$Hits_Align." -evalue ".$evalue;
-echo $cmd;
 exec($cmd);
 $del = "rm ".$input;
 exec($del);
