@@ -1,5 +1,5 @@
 <?php
-$bd			= "luan";
+$bd		= "luan";
 $user 		= "root";
 $pass	 	= "biodattadl380";
 $host 		= "localhost";
