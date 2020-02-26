@@ -84,7 +84,7 @@ function fas_get($x) {
 if ($action == "ImportFastaFile") {	
 	
 $Project 	= $_POST["id"];
-$uploaddir = '/var/www/html/openGO/uploads';
+$uploaddir = '/var/www/html/sGOat/uploads';
 $uploadfile = $uploaddir . $_FILES['FastaFile']['name'];
 $upfile    = $uploaddir.basename($_FILES['FastaFile']['name']);
 	
