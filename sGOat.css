@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.fa-2x, .fa-3x{
+	vertical-align: middle;
+}
+
+.Short {  
+    width: 100%;  
+    background-color: #dc3545;  
+    margin-top: 5px;  
+    height: 5px;  
+    color: #dc3545;  
+    font-weight: 500;  
+    font-size: 15px;  
+}  
+.Weak {  
+    width: 100%;  
+    background-color: #ffc107;  
+    margin-top: 5px;  
+    height: 5px;  
+    color: #ffc107;  
+    font-weight: 500;  
+    font-size: 15px;  
+}  
+.Good {  
+    width: 100%;  
+    background-color: #28a745;  
+    margin-top: 5px;  
+    height: 5px;  
+    color: #28a745;  
+    font-weight: 500;  
+    font-size: 15px;  
+}  
+.Strong {  
+    width: 100%;  
+    background-color: lightgreen;  
+    margin-top: 5px;  
+    height: 5px;  
+    color: lightgreen;   
+    font-size: 15px;  
+}
